@@ -18,6 +18,7 @@ refactor, destructure to get the objects name
 tests stay green, commit
 refactor, destructure function parameters and return name
 tests stay green, commit
+=======================================================================================
 copyAndPush function
 create a function that returns a new array with all the items in the original array and a new item pushed to the end.
 
