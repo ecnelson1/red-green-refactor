@@ -31,6 +31,7 @@ oops we were supposed to return a copy
 add another test that makes sure that the original array is unchanged
 update code, use spread to copy and append
 green, commit
+====================================================================================
 capitalizeAndFilter
 create a function that takes an array of strings capitalize all strings and filter out any string that starts with the letter f.
 
