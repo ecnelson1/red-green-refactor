@@ -18,6 +18,7 @@ refactor, destructure to get the objects name
 tests stay green, commit
 refactor, destructure function parameters and return name
 tests stay green, commit
+=======================================================================================
 copyAndPush function
 create a function that returns a new array with all the items in the original array and a new item pushed to the end.
 
@@ -30,6 +31,7 @@ oops we were supposed to return a copy
 add another test that makes sure that the original array is unchanged
 update code, use spread to copy and append
 green, commit
+====================================================================================
 capitalizeAndFilter
 create a function that takes an array of strings capitalize all strings and filter out any string that starts with the letter f.
 
@@ -37,6 +39,8 @@ Write a test
 create a function, use a for loop to get test to pass
 green, commit
 refactor, use array methods to instead of a for loop
+===========================================================================================
+
 fetchQuotes
 Use the Futurama Quote API http://futuramaapi.herokuapp.com to return a single quote with the format:
 
