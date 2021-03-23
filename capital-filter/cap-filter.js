@@ -1,12 +1,6 @@
 const capitalizeAndFilter = (arr) => {
-  const filtered = [];
-  for(let i = 0; i < arr.length; i++){
-    arr[i] = arr[i].toUpperCase();
-    if(arr[i].charAt(0) !== 'F'){
-      filtered.push(arr[i]);
-    }
-  }
-  return filtered;
-
+  const capsArr = arr.map(string => string.toUpperCase());
+  filtArr = capsArr.filter((string) => string.charAt(0) !== 'F');
+  return filtArr;
 };
 module.exports = capitalizeAndFilter;
