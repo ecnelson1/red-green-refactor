@@ -39,6 +39,8 @@ Write a test
 create a function, use a for loop to get test to pass
 green, commit
 refactor, use array methods to instead of a for loop
+===========================================================================================
+
 fetchQuotes
 Use the Futurama Quote API http://futuramaapi.herokuapp.com to return a single quote with the format:
 
